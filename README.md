@@ -1,4 +1,4 @@
-# RZF Creator Portfolio (HTML/CSS/JS)
+# Annisa Esce Portfolio (HTML/CSS/JS)
 
 Offline-friendly portfolio template for a Content Creator:
 - Dark/Light mode (saved in localStorage)
