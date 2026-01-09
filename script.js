@@ -382,14 +382,48 @@
   });
 
   // Contact form demo
+  // const contactForm = document.getElementById("contactForm");
+  // contactForm && contactForm.addEventListener("submit", (e) => {
+  //   // e.preventDefault();
+  //   const fd = new FormData(contactForm);
+  //   const name = (fd.get("name") || "").toString().trim();
+  //   showToast(`Makasih, ${name || "kak"}! Pesan udah terkirim.`);
+  //   // contactForm.reset();
+  // });
+
+  // Contact form (Formspree)
   const contactForm = document.getElementById("contactForm");
-  contactForm && contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const fd = new FormData(contactForm);
-    const name = (fd.get("name") || "").toString().trim();
-    showToast(`Makasih, ${name || "kak"}! (demo form)`);
-    contactForm.reset();
-  });
+
+  if (contactForm) {
+    contactForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const fd = new FormData(contactForm);
+      const name = (fd.get("name") || "").toString().trim();
+
+      // WAJIB: ganti dengan endpoint formspree kamu
+      const FORMSPREE_URL = "https://formspree.io/f/xeeoyydw";
+
+      try {
+        const res = await fetch(FORMSPREE_URL, {
+          method: "POST",
+          body: fd,
+          headers: { Accept: "application/json" },
+        });
+
+        if (res.ok) {
+          showToast(`Makasih, ${name || "kak"}! Pesan kamu sudah terkirim ✅`);
+          contactForm.reset();
+        } else {
+          const data = await res.json().catch(() => ({}));
+          showToast(data?.error || "Gagal mengirim pesan. Coba lagi ya.");
+        }
+      } catch (err) {
+        showToast("Koneksi bermasalah. Coba lagi ya.");
+      }
+    });
+  }
+
 
   // Toast
   let toastTimer = null;
