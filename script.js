@@ -408,6 +408,13 @@
       if (el.__tiltBound) return;
       el.__tiltBound = true;
 
+      // Simpan transform awal (kalau ada) supaya efek tilt tidak "nimpah" positioning.
+      // Ini penting untuk elemen yang memang butuh transform bawaan (mis. dulu modal pakai translate untuk center).
+      const baseTransform = (el.dataset.tiltBaseTransform != null)
+        ? el.dataset.tiltBaseTransform
+        : (el.style.transform || "");
+      el.dataset.tiltBaseTransform = baseTransform;
+
       const strength = clamp(parseFloat(el.dataset.tiltStrength || "12"), 4, 22);
       let raf = null;
 
@@ -420,14 +427,15 @@
 
         if (raf) cancelAnimationFrame(raf);
         raf = requestAnimationFrame(() => {
-          el.style.transform = `perspective(900px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) translateZ(0)`;
+          const base = baseTransform ? (baseTransform + " ") : "";
+          el.style.transform = base + `perspective(900px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) translateZ(0)`;
           el.style.willChange = "transform";
         });
       };
 
       const onLeave = () => {
         if (raf) cancelAnimationFrame(raf);
-        el.style.transform = "";
+        el.style.transform = baseTransform || "";
         el.style.willChange = "";
       };
 
@@ -484,6 +492,11 @@
 // =========================
 // NAVBAR STICKY + ACTIVE LINK DINAMIS
 // =========================
+
+// NOTE: Bagian ini berada di luar IIFE, jadi perlu ambil ulang element DOM-nya.
+const navbar = document.getElementById("navbar");
+const burger = document.getElementById("burger");
+const mobileMenu = document.getElementById("mobileMenu");
 
 // 1) Set tinggi navbar ke CSS variable biar body padding-top pas
 function syncNavHeight() {
