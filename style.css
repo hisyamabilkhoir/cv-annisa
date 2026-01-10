@@ -147,7 +147,7 @@ textarea {
 
 .clamp-2 {
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1574,4 +1574,123 @@ body {
   right: 0;
   z-index: 1000;
   /* lebih tinggi dari navbar */
+}
+
+/* ==============================
+   BRANDS SECTION
+   Fully integrated with theme system
+================================ */
+
+.wp-brands {
+  padding: 84px 0;
+}
+
+/* Grid */
+.wp-brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* Card — pakai card system yang sama */
+.wp-brand-card {
+  padding: 22px;
+  border-radius: var(--radius2);
+  background: linear-gradient(180deg,
+      color-mix(in srgb, var(--panel2) 92%, var(--bg0)),
+      color-mix(in srgb, var(--panel) 92%, var(--bg0)));
+  border: 1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  text-align: center;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.wp-brand-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--stroke2);
+  box-shadow: var(--shadow), var(--glow2);
+}
+
+/* Logo — ikut panel system */
+.wp-brand-logo {
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 18px;
+  border-radius: 999px;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow2);
+}
+
+.wp-brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Text */
+.wp-brand-card h3 {
+  margin: 4px 0 4px;
+  font-family: var(--fontA);
+  font-size: 16px;
+  letter-spacing: -.02em;
+}
+
+.wp-brand-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.wp-brand-card p {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .wp-brands {
+    padding: 72px 0;
+  }
+
+  .wp-brand-logo {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+/* ==============================
+   Crisp Chat — pindah ke kiri bawah
+================================ */
+
+/* Widget bubble */
+.crisp-client {
+  right: auto !important;
+  left: 20px !important;
+  bottom: 20px !important;
+}
+
+/* Jika ada mode expanded / open */
+.crisp-client .cc-1xry {
+  right: auto !important;
+  left: 0 !important;
+}
+
+@media (max-width: 640px) {
+  .crisp-client {
+    left: 12px !important;
+    bottom: 12px !important;
+  }
+}
+
+#crisp-chatbox {
+  right: auto !important;
+  left: 20px !important;
+  bottom: 20px !important;
 }
