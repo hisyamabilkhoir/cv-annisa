@@ -253,6 +253,30 @@
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: ""
     },
+    {
+      id: "p7", platform: "instagram",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/triptracker.jpeg"
+    },
+    {
+      id: "p8", platform: "instagram",
+      title: "Desain Logo 3D",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/p8.jpeg"
+    },
+    {
+      id: "p9", platform: "lemon",
+      title: "Gaya Hidup Sehat",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/lemon-1.png"
+    },
   ].map(p => ({
     ...p,
     // kalau p.thumb kosong → auto placeholder unik per id
@@ -262,7 +286,8 @@
   const platformLabel = (p) => (
     p === "tiktok" ? "TikTok" :
       p === "instagram" ? "Instagram" :
-        p === "youtube" ? "YouTube" : "Platform"
+        p === "lemon" ? "Lemon" :
+          p === "youtube" ? "YouTube" : "Platform"
   );
 
   let activeFilter = "all";
@@ -612,3 +637,29 @@ document.querySelectorAll('.nav__links a.nav__link, .nav__mobile a.nav__mLink').
     if (hash) setActiveNav(hash);
   });
 });
+
+// Simple 3D tilt (safe)
+document.querySelectorAll("[data-tilt]").forEach(card => {
+  const strength = 12;
+
+  card.addEventListener("mousemove", (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const rotateX = ((y / rect.height) - 0.5) * -strength;
+    const rotateY = ((x / rect.width) - 0.5) * strength;
+
+    card.style.transform = `
+      perspective(800px)
+      rotateX(${rotateX}deg)
+      rotateY(${rotateY}deg)
+      translateZ(0)
+    `;
+  });
+
+  card.addEventListener("mouseleave", () => {
+    card.style.transform = "perspective(800px) rotateX(0) rotateY(0)";
+  });
+});
+
