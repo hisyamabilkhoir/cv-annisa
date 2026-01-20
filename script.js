@@ -205,77 +205,189 @@
   // Projects
   const PROJECTS = [
     {
-      id: "p1", platform: "tiktok",
-      title: "Seller Story — Hook Retention",
-      desc: "Problem → proof → CTA (clean).",
-      views: "1.2M", ctr: "4.6%", outcome: "Leads +23",
-      bullets: ["Rewrite hook 2 detik.", "Pacing + SFX.", "CTA variations."],
-      // kalau nanti punya gambar asli: ganti ke "assets/projects/p1.jpg"
-      thumb: "assets/annisa.jfif" // kosong dulu → auto placeholder unik
-    },
-    {
-      id: "p2", platform: "instagram",
-      title: "UGC Ads — Premium Look",
-      desc: "Trust-first, minimal overlay.",
-      views: "640K", ctr: "3.8%", outcome: "DM ↑",
-      bullets: ["Storyboard singkat.", "Grade soft.", "A/B ending."],
-      thumb: "assets/annisa-2.jpg"
-    },
-    {
-      id: "p3", platform: "youtube",
-      title: "Shorts — 3 Part Series",
-      desc: "Series buat repeat views.",
-      views: "980K", ctr: "3.1%", outcome: "Subs +1.4K",
-      bullets: ["Cliffhanger halus.", "Template edit.", "Pinned CTA."],
-      thumb: ""
-    },
-    {
-      id: "p4", platform: "tiktok",
-      title: "Property Myth-Busting",
-      desc: "Fast debunk + proof.",
-      views: "410K", ctr: "4.2%", outcome: "Leads ↑",
-      bullets: ["Pattern interrupt.", "1 data + 1 contoh.", "CTA keyword."],
-      thumb: ""
-    },
-    {
-      id: "p5", platform: "instagram",
-      title: "Emotional VO — Save & Share",
-      desc: "Cinematic VO, clean text.",
-      views: "520K", ctr: "2.9%", outcome: "Saves ↑",
-      bullets: ["Micro-confession.", "Beat sync.", "Caption CTA."],
-      thumb: ""
-    },
-    {
-      id: "p6", platform: "youtube",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
-      thumb: ""
-    },
-    {
-      id: "p7", platform: "instagram",
-      title: "Explain in 30s",
+      id: "p1", platform: "travel",
+      title: "Trip Tracker",
       desc: "Complex → simple.",
       views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/triptracker.jpeg"
     },
     {
-      id: "p8", platform: "instagram",
+      id: "p2", platform: "f&b",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/f&b-1.jpeg"
+    },
+    {
+      id: "p3", platform: "f&b",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/f&b-2.jpeg"
+    },
+    {
+      id: "p4", platform: "f&b",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/f&b-3.jpeg"
+    },
+    {
+      id: "p5", platform: "fashion",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/fashion-1.jpeg"
+    },
+    {
+      id: "p6", platform: "fashion",
+      title: "Explain in 30s",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/fashion-2.jpeg"
+    },
+    {
+      id: "p7", platform: "logo",
       title: "Desain Logo 3D",
       desc: "Complex → simple.",
       views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
-      thumb: "assets/p8.jpeg"
+      thumb: "assets/d-logo-1.jpeg"
     },
     {
-      id: "p9", platform: "lemon",
-      title: "Gaya Hidup Sehat",
+      id: "p8", platform: "f&b",
+      title: "Desain F&B",
       desc: "Complex → simple.",
       views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
-      thumb: "assets/lemon-1.png"
+      thumb: "assets/f&b-4.jpeg"
+    },
+    {
+      id: "p9", platform: "f&b",
+      title: "Desain F&B",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/f&b-5.jpeg"
+    },
+    {
+      id: "p10", platform: "f&b",
+      title: "Desain F&B",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/f&b-6.jpeg"
+    },
+    {
+      id: "p11", platform: "product",
+      title: "Produk",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/product-1.jpeg"
+    },
+    {
+      id: "p12", platform: "product",
+      title: "Produk",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/product-2.jpeg"
+    },
+    {
+      id: "p13", platform: "product",
+      title: "Produk",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/product-3.jpeg"
+    },
+    {
+      id: "p14", platform: "event",
+      title: "Event",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/event-1.jpeg"
+    },
+    {
+      id: "p15", platform: "event",
+      title: "Event",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/event-2.jpeg"
+    },
+    {
+      id: "p16", platform: "event",
+      title: "Event",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/event-3.jpeg"
+    },
+    {
+      id: "p17", platform: "event",
+      title: "Event",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/event-4.jpeg"
+    },
+    {
+      id: "p18", platform: "event",
+      title: "Event",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/event-5.jpeg"
+    },
+    {
+      id: "p19", platform: "wedding",
+      title: "Wedding",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/wedding-1.jpeg"
+    },
+    {
+      id: "p20", platform: "property",
+      title: "Property",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/property-1.jpeg"
+    },
+
+    {
+      id: "p21", platform: "poster",
+      title: "Poster",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/poster-2.jpeg"
+    },
+    {
+      id: "p22", platform: "poster",
+      title: "Poster",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/poster-1.jpeg"
+    },
+    {
+      id: "p23", platform: "poster",
+      title: "Poster",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/poster-3.jpeg"
     },
   ].map(p => ({
     ...p,
@@ -284,10 +396,16 @@
   }));
 
   const platformLabel = (p) => (
-    p === "tiktok" ? "TikTok" :
-      p === "instagram" ? "Instagram" :
-        p === "lemon" ? "Lemon" :
-          p === "youtube" ? "YouTube" : "Platform"
+    p === "property" ? "Property" :
+      p === "travel" ? "Travel" :
+        p === "f&b" ? "F&b" :
+          p === "event" ? "Event" :
+            p === "fashion" ? "Fashion" :
+              p === "wedding" ? "Wedding" :
+                p === "vlog" ? "Vlog" :
+                  p === "product" ? "Product" :
+                    p === "poster" ? "Poster" :
+                      p === "logo" ? "Logo" : "Platform"
   );
 
   let activeFilter = "all";
@@ -368,11 +486,28 @@
       modalTag.className = "modal__tag tag " + p.platform;
     }
 
-    modalTitle && (modalTitle.textContent = p.title);
-    modalDesc && (modalDesc.textContent = p.desc);
-    modalViews && (modalViews.textContent = p.views);
-    modalCtr && (modalCtr.textContent = p.ctr);
-    modalOutcome && (modalOutcome.textContent = p.outcome);
+    modalTitle.textContent = p.title;
+    modalDesc.textContent = p.desc;
+    modalViews.textContent = p.views;
+    modalCtr.textContent = p.ctr;
+    modalOutcome.textContent = p.outcome;
+
+    // 🔥 TAMBAHAN DI SINI (IMAGE)
+    if (modalMedia) {
+      modalMedia.innerHTML = "";
+
+      const imgs = (p.images && p.images.length)
+        ? p.images
+        : [p.thumb]; // fallback ke thumb
+
+      imgs.forEach(src => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.loading = "lazy";
+        modalMedia.appendChild(img);
+      });
+    }
+    // 🔥 END IMAGE
 
     if (modalBullets) {
       modalBullets.innerHTML = "";
@@ -387,14 +522,30 @@
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
 
+    // navbar.style.display = "none";          // 🔥 desktop
+    // mobileMenu && (mobileMenu.style.display = "none"); // 🔥 mobile
+
+    navbar.classList.add("hide");
+    mobileMenu && mobileMenu.classList.remove("open");
+    mobileMenu && mobileMenu.classList.add("hide");
+
+
     if (!prefersReducedMotion) initTiltWithin(modal);
   };
+
 
   const closeModal = () => {
     if (!modal) return;
     modal.classList.remove("open");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+
+    // navbar.style.display = "";
+    // mobileMenu && (mobileMenu.style.display = "");
+
+    navbar.classList.remove("hide");
+    mobileMenu && mobileMenu.classList.remove("hide");
+
   };
 
   modal && modal.addEventListener("click", (e) => {
@@ -405,16 +556,6 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal && modal.classList.contains("open")) closeModal();
   });
-
-  // Contact form demo
-  // const contactForm = document.getElementById("contactForm");
-  // contactForm && contactForm.addEventListener("submit", (e) => {
-  //   // e.preventDefault();
-  //   const fd = new FormData(contactForm);
-  //   const name = (fd.get("name") || "").toString().trim();
-  //   showToast(`Makasih, ${name || "kak"}! Pesan udah terkirim.`);
-  //   // contactForm.reset();
-  // });
 
   // Contact form (Formspree)
   const contactForm = document.getElementById("contactForm");
