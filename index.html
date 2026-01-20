@@ -45,6 +45,7 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
+
 <body>
   <!-- GLOBAL BACKGROUND (no external resources) -->
   <div class="bg" aria-hidden="true">
@@ -195,8 +196,7 @@
 
               <div class="portrait__avatar">
                 <!-- No external image: data-uri placeholder -->
-                <img class="avatar__img" alt="Your photo" loading="lazy" decoding="async"
-                  src="https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.75761-15/486132722_18393682171104631_5072547526853921695_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzU5NjY3ODg4ODMzMzYwMDA0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc5OS5zZHIuQzMifQ%3D%3D&_nc_ohc=YvyzIZAzjp0Q7kNvwGySQWe&_nc_oc=Adn_mbY-ELQ3girlT1y6RjeCtLZq_KwXG8y-gyf7-BpCGG5UEtf6Onl8Y6kiS81cpSc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbdo9-1.fna&_nc_gid=hVjXc_UKHS0d1PTnL_6JVQ&oh=00_AfrTJtYHQfbyvyddGOKP_lkB7HZyIQZngR96rCdIY0xB_g&oe=6965224D">
+                <img class="avatar__img" alt="Your photo" loading="lazy" decoding="async" src="assets/header.jpg">
               </div>
 
               <div class="portrait__meta">
@@ -431,25 +431,35 @@
               <use href="#i-layers"></use>
             </svg> All
           </button>
-          <button class="filter" data-filter="tiktok" role="tab" aria-selected="false">
-            <svg class="ico" aria-hidden="true">
-              <use href="#i-tiktok"></use>
-            </svg> TikTok
+          <button class="filter" data-filter="property" role="tab" aria-selected="false">
+            Property
           </button>
-          <button class="filter" data-filter="instagram" role="tab" aria-selected="false">
-            <svg class="ico" aria-hidden="true">
-              <use href="#i-instagram"></use>
-            </svg> Instagram
+          <button class="filter" data-filter="travel" role="tab" aria-selected="false">
+            Travel
           </button>
-          <button class="filter" data-filter="youtube" role="tab" aria-selected="false">
-            <svg class="ico" aria-hidden="true">
-              <use href="#i-youtube"></use>
-            </svg> YouTube
+          <button class="filter" data-filter="f&b" role="tab" aria-selected="false">
+            F&B
           </button>
-          <button class="filter" data-filter="lemon" role="tab" aria-selected="false">
-            <svg class="ico" aria-hidden="true">
-              <use href="#i-lemon-outline"></use>
-            </svg> Lemon
+          <button class="filter" data-filter="event" role="tab" aria-selected="false">
+            Event
+          </button>
+          <button class="filter" data-filter="fashion" role="tab" aria-selected="false">
+            Fashion
+          </button>
+          <button class="filter" data-filter="wedding" role="tab" aria-selected="false">
+            Wedding
+          </button>
+          <button class="filter" data-filter="vlog" role="tab" aria-selected="false">
+            Vlog
+          </button>
+          <button class="filter" data-filter="logo" role="tab" aria-selected="false">
+            Logo
+          </button>
+          <button class="filter" data-filter="product" role="tab" aria-selected="false">
+            Product
+          </button>
+          <button class="filter" data-filter="poster" role="tab" aria-selected="false">
+            Poster
           </button>
 
           <div class="filters__spacer"></div>
@@ -731,13 +741,15 @@
   <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project case study">
     <div class="modal__backdrop" data-close-modal></div>
     <div class="modal__panel card3d" role="document" data-tilt data-tilt-strength="8">
-      <button class="modal__close" aria-label="Tutup" data-close-modal>✕</button>
+      <!-- <button class="modal__close" aria-label="Tutup" data-close-modal>✕ Close</button> -->
       <div class="modal__content">
         <div class="modal__top">
           <div class="modal__tag" id="modalTag">Platform</div>
           <h3 class="modal__title" id="modalTitle">Project Title</h3>
           <p class="modal__desc" id="modalDesc">Description</p>
         </div>
+
+        <div class="modal__media" id="modalMedia"></div>
 
         <div class="modal__grid">
           <div class="metric">
