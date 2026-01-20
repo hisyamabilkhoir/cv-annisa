@@ -1,5 +1,5 @@
 /* =========================
-   RZF Creator Portfolio
+   Creator Portfolio
    HTML/CSS/JS only (offline-friendly)
 ========================= */
 
@@ -1232,7 +1232,7 @@ html[data-theme="light"] .modal__backdrop {
   position: absolute;
   top: 12px;
   right: 12px;
-  width: 40px;
+  width: 100px;
   height: 40px;
   border-radius: 14px;
   border: 1px solid var(--stroke);
@@ -1693,4 +1693,44 @@ body {
   right: auto !important;
   left: 20px !important;
   bottom: 20px !important;
+}
+
+.modal__media {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.modal__media img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+/* .nav.hide,
+.nav__mobile.hide {
+  transform: translateY(-100%);
+  transition: .3s ease;
+}
+
+.nav__mobile.hide {
+  display: none !important;
+}
+
+.nav {
+  transition: .3s ease;
+} */
+
+.nav,
+.nav__mobile {
+  transition: .35s ease;
+}
+
+/* state hidden */
+.nav.hide,
+.nav__mobile.hide {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
 }
