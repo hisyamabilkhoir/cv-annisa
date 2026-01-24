@@ -68,7 +68,7 @@
   const cvBtn = document.getElementById("downloadCV");
   if (cvBtn) {
     cvBtn.addEventListener("click", (e) => {
-      const href = cvBtn.getAttribute("href"); // contoh: "test.pdf"
+      const href = cvBtn.getAttribute("href"); // contoh: "cv annisa.pdf"
       if (!href || href === "#" || href.includes("test.pdf")) {
         e.preventDefault();
         showToast("Taruh file CV kamu (mis. cv.pdf), lalu ubah link-nya.");
@@ -208,7 +208,7 @@
       id: "p1", platform: "travel",
       title: "Trip Tracker",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/triptracker.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/triptracker.jpeg"
     },
@@ -216,7 +216,7 @@
       id: "p2", platform: "f&b",
       title: "Explain in 30s",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-1.jpeg"
     },
@@ -224,7 +224,7 @@
       id: "p3", platform: "f&b",
       title: "Explain in 30s",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-2.jpeg"
     },
@@ -232,7 +232,7 @@
       id: "p4", platform: "f&b",
       title: "Explain in 30s",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-3.jpeg"
     },
@@ -240,7 +240,7 @@
       id: "p5", platform: "fashion",
       title: "Explain in 30s",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/shaff.wear/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/fashion-1.jpeg"
     },
@@ -248,7 +248,7 @@
       id: "p6", platform: "fashion",
       title: "Explain in 30s",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/shaff.wear/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/fashion-2.jpeg"
     },
@@ -256,7 +256,7 @@
       id: "p7", platform: "logo",
       title: "Desain Logo 3D",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/d-logo-1.jpeg"
     },
@@ -264,7 +264,7 @@
       id: "p8", platform: "f&b",
       title: "Desain F&B",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-4.jpeg"
     },
@@ -272,7 +272,7 @@
       id: "p9", platform: "f&b",
       title: "Desain F&B",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-5.jpeg"
     },
@@ -280,7 +280,7 @@
       id: "p10", platform: "f&b",
       title: "Desain F&B",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/f&b-6.jpeg"
     },
@@ -288,7 +288,7 @@
       id: "p11", platform: "product",
       title: "Produk",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/product-1.jpeg"
     },
@@ -296,7 +296,7 @@
       id: "p12", platform: "product",
       title: "Produk",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/product-2.jpeg"
     },
@@ -304,7 +304,7 @@
       id: "p13", platform: "product",
       title: "Produk",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/product-3.jpeg"
     },
@@ -312,7 +312,7 @@
       id: "p14", platform: "event",
       title: "Event",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/event-1.jpeg"
     },
@@ -320,7 +320,7 @@
       id: "p15", platform: "event",
       title: "Event",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/event-2.jpeg"
     },
@@ -328,7 +328,7 @@
       id: "p16", platform: "event",
       title: "Event",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/event-3.jpeg"
     },
@@ -336,7 +336,7 @@
       id: "p17", platform: "event",
       title: "Event",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/event-4.jpeg"
     },
@@ -344,7 +344,7 @@
       id: "p18", platform: "event",
       title: "Event",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/event-5.jpeg"
     },
@@ -352,7 +352,7 @@
       id: "p19", platform: "wedding",
       title: "Wedding",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/escepotrait/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/wedding-1.jpeg"
     },
@@ -360,7 +360,7 @@
       id: "p20", platform: "property",
       title: "Property",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/property-1.jpeg"
     },
@@ -369,7 +369,7 @@
       id: "p21", platform: "poster",
       title: "Poster",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/poster-2.jpeg"
     },
@@ -377,7 +377,7 @@
       id: "p22", platform: "poster",
       title: "Poster",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/poster-1.jpeg"
     },
@@ -385,9 +385,41 @@
       id: "p23", platform: "poster",
       title: "Poster",
       desc: "Complex → simple.",
-      views: "760K", ctr: "3.5%", outcome: "Watchtime ↑",
+      views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
       bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
       thumb: "assets/poster-3.jpeg"
+    },
+    {
+      id: "p24", platform: "motion",
+      title: "Motion",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/1h3MG12XOVOeHS5jdztPg-1wuScLtb4HA/view?usp=drive_link",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/motion-1.jpeg"
+    },
+    {
+      id: "p25", platform: "motion",
+      title: "Motion",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/18W1EWrClbwXMdVeTPbBkZFLlX4oH7FgE/view?usp=drive_link",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/motion-2.jpeg"
+    },
+    {
+      id: "p26", platform: "motion",
+      title: "Motion",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/1cRI1AhToe7sm47wcNkFy9U_xry7jaPpv/view?usp=drive_link",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/motion-3.jpeg"
+    },
+    {
+      id: "p27", platform: "motion",
+      title: "Motion",
+      desc: "Complex → simple.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      thumb: "assets/motion-4.jpeg"
     },
   ].map(p => ({
     ...p,
@@ -405,7 +437,8 @@
                 p === "vlog" ? "Vlog" :
                   p === "product" ? "Product" :
                     p === "poster" ? "Poster" :
-                      p === "logo" ? "Logo" : "Platform"
+                      p === "motion" ? "Motion" :
+                        p === "logo" ? "Logo" : "Platform"
   );
 
   let activeFilter = "all";
@@ -438,12 +471,17 @@
         <div class="project__meta">
           <span class="pmeta"><strong>${escapeHtml(p.views)}</strong> views</span>
           <span class="pmeta"><strong>${escapeHtml(p.ctr)}</strong> CTR</span>
-          <span class="pmeta">${escapeHtml(p.outcome)}</span>
+         
+            ${(p.outcome && String(p.outcome).trim() !== "")
+        ? `<span class="pmeta"> <a href="${escapeHtml(p.outcome)}" target="_blank" rel="noopener noreferrer">Lihat</a></span>`
+        : ``
+      }
+          
         </div>
 
         <div class="project__actions">
           <button class="btn btn--primary" data-open="${p.id}" data-tilt data-tilt-strength="10">
-            Case Study
+            Detail
             <span class="btn__glow" aria-hidden="true"></span>
           </button>
           <a class="btn btn--ghost" href="#contact" data-tilt data-tilt-strength="10">Start</a>
@@ -490,7 +528,17 @@
     modalDesc.textContent = p.desc;
     modalViews.textContent = p.views;
     modalCtr.textContent = p.ctr;
-    modalOutcome.textContent = p.outcome;
+    if (p.outcome && String(p.outcome).trim() !== "") {
+      modalOutcome.href = p.outcome;
+      modalOutcome.textContent = "Lihat";
+      modalOutcome.style.pointerEvents = "auto";
+      modalOutcome.classList.remove("muted");
+    } else {
+      modalOutcome.removeAttribute("href");
+      modalOutcome.textContent = "Belum Tersedia";
+      modalOutcome.style.pointerEvents = "none";
+      modalOutcome.classList.add("muted");
+    }
 
     // 🔥 TAMBAHAN DI SINI (IMAGE)
     if (modalMedia) {
@@ -725,25 +773,37 @@ const sections = sectionIds
   .filter(Boolean);
 
 if (sections.length) {
-  const obs = new IntersectionObserver((entries) => {
-    // cari entry yang paling "kelihatan"
-    const visible = entries
-      .filter(e => e.isIntersecting)
-      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+  let ticking = false;
 
-    if (visible && visible.target && visible.target.id) {
-      setActiveNav(visible.target.id);
-      // update hash halus (optional)
-      // history.replaceState(null, "", "#" + visible.target.id);
+  function updateActiveSection() {
+    const scrollPos = window.scrollY + window.innerHeight / 3;
+
+    let currentSection = sections[0];
+    for (const section of sections) {
+      const rect = section.getBoundingClientRect();
+      const sectionTop = window.scrollY + rect.top;
+
+      if (scrollPos >= sectionTop) {
+        currentSection = section;
+      }
     }
-  }, {
-    // aktif saat section masuk area tengah viewport
-    root: null,
-    threshold: [0.2, 0.35, 0.5, 0.65],
-    rootMargin: "-35% 0px -55% 0px"
-  });
 
-  sections.forEach(sec => obs.observe(sec));
+    if (currentSection && currentSection.id) {
+      setActiveNav(currentSection.id);
+    }
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        updateActiveSection();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+
+  updateActiveSection();
 
   // saat load pertama kali: kalau ada hash, langsung aktifkan
   const initial = (location.hash || "").replace("#", "");

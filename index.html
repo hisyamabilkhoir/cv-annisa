@@ -69,6 +69,7 @@
       <nav class="nav__links" aria-label="Navigasi utama">
         <a class="nav__link active" href="#home" data-link="home">Home</a>
         <a class="nav__link" href="#about" data-link="about">About</a>
+        <a class="nav__link" href="#brands" data-link="brands">Brands</a>
         <a class="nav__link" href="#projects" data-link="projects">Projects</a>
         <a class="nav__link" href="#resume" data-link="resume">Resume</a>
         <a class="nav__link" href="#contact" data-link="contact">Contact</a>
@@ -111,6 +112,7 @@
       <div class="nav__mobileInner">
         <a class="nav__mLink" href="#home" data-close>Home</a>
         <a class="nav__mLink" href="#about" data-close>About</a>
+        <a class="nav__mLink" href="#brands" data-close>Brands</a>
         <a class="nav__mLink" href="#projects" data-close>Projects</a>
         <a class="nav__mLink" href="#resume" data-close>Resume</a>
         <a class="nav__mLink" href="#contact" data-close>Contact</a>
@@ -313,7 +315,7 @@
     </section>
 
     <!-- BRANDS -->
-    <section class="wp-brands">
+    <section class="wp-brands section" id="brands" data-spot="brands">
       <div class="container">
 
         <!-- Section Header (SAMA dengan Projects) -->
@@ -413,6 +415,28 @@
             <p>Vlog Pribadi untuk personal branding</p>
           </div>
 
+          <div class="wp-brand-card reveal">
+            <div class="wp-brand-logo">
+              <img src="assets/esce-2.png" alt="Esce Potrait">
+            </div>
+            <h3>Esce Potrait</h3>
+            <span class="wp-brand-location">
+              <i class="ri-map-pin-line"></i> Indonesia
+            </span>
+            <p>Studio fotografi untuk pernikahan</p>
+          </div>
+
+          <div class="wp-brand-card reveal">
+            <div class="wp-brand-logo">
+              <img src="assets/jack-removebg-preview.png" alt="Jack Howard">
+            </div>
+            <h3>Jack Howard</h3>
+            <span class="wp-brand-location">
+              <i class="ri-map-pin-line"></i> Indonesia
+            </span>
+            <p>Restoran Dining dengan konsep Aussie</p>
+          </div>
+
         </div>
       </div>
     </section>
@@ -460,6 +484,9 @@
           </button>
           <button class="filter" data-filter="poster" role="tab" aria-selected="false">
             Poster
+          </button>
+          <button class="filter" data-filter="motion" role="tab" aria-selected="false">
+            Motion
           </button>
 
           <div class="filters__spacer"></div>
@@ -542,15 +569,17 @@
             </div>
 
             <div class="resume__actions">
-              <a class="btn btn--primary" target="_blank" href="cv.pdf" id="downloadCV" data-tilt
-                data-tilt-strength="12">
+              <a class="btn btn--primary" target="_blank" href="cv annisa.pdf" id="downloadCV" download="CV Annisa.pdf"
+                data-tilt data-tilt-strength="12">
                 <svg class="ico" aria-hidden="true">
                   <use href="#i-download"></use>
                 </svg>
                 Download CV
                 <span class="btn__glow" aria-hidden="true"></span>
               </a>
-              <a class="btn btn--ghost" href="cv.pdf" target="_blank" data-tilt data-tilt-strength="10">
+              <a class="btn btn--ghost"
+                href="https://drive.google.com/drive/folders/1SlQgTtyq56oYGV9dAojJn6RFkS3hMiUS?usp=sharing"
+                target="_blank" data-tilt data-tilt-strength="10">
                 <svg class="ico" aria-hidden="true">
                   <use href="#i-download"></use>
                 </svg>
@@ -761,8 +790,8 @@
             <span class="metric__v" id="modalCtr">-</span>
           </div>
           <div class="metric">
-            <span class="metric__k">Outcome</span>
-            <span class="metric__v" id="modalOutcome">-</span>
+            <span class="metric__k">Link</span>
+            <a class="metric__v" id="modalOutcome" target="_blank" rel="noopener noreferrer">-</a>
           </div>
         </div>
 

@@ -1224,6 +1224,8 @@ html[data-theme="light"] .modal__backdrop {
   top: auto;
   transform: none;
   width: min(760px, calc(100% - 32px));
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
   border-radius: 26px;
   padding: 18px;
 }
