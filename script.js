@@ -206,220 +206,274 @@
   const PROJECTS = [
     {
       id: "p1", platform: "travel",
-      title: "Trip Tracker",
-      desc: "Complex → simple.",
+      title: "Video Tips and trick traveling",
+      desc: "Konten travel edukatif yang dikemas ringkas dan engaging untuk audiens digital. Mengubah perencanaan perjalanan yang kompleks menjadi visual storytelling yang mudah dipahami, informatif, dan menarik.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/triptracker.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Scriptwriting, menyusun konsep, alur cerita, dan hook konten.", "Talent, tampil sebagai host untuk penyampaian informasi yang relatable.", "Cinematography, pengambilan gambar travel & ambience lokasi.", "Video editing, pacing dinamis, text sync, dan visual clarity."],
+      tag: "Scripter + Talent + Cameraman + Video Editor",
       thumb: "assets/triptracker.jpeg"
     },
     {
       id: "p2", platform: "f&b",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-1.jpeg"
     },
     {
       id: "p3", platform: "f&b",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-2.jpeg"
     },
     {
       id: "p4", platform: "f&b",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/officialchickenmaster/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-3.jpeg"
     },
     {
       id: "p5", platform: "fashion",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
+      title: "Photoshoot",
+      desc: "Produksi visual fashion yang menonjolkan karakter produk dan identitas brand. Setiap sesi photoshoot dirancang untuk menghasilkan visual yang rapi, estetik, dan siap digunakan untuk kebutuhan promosi digital.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/shaff.wear/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Fashion photography, pemilihan angle, pose, dan lighting.", "Poster & visual design, layout promosi yang konsisten dengan brand.", "Photo editing, color grading, retouching, dan mood adjustment.", "Content-ready output untuk media sosial dan campaign."],
+      tag: "Photographer + Poster Designer + Photo Editor",
       thumb: "assets/fashion-1.jpeg"
     },
     {
       id: "p6", platform: "fashion",
-      title: "Explain in 30s",
-      desc: "Complex → simple.",
+      title: "Photoshoot",
+      desc: "Produksi visual fashion yang menonjolkan karakter produk dan identitas brand. Setiap sesi photoshoot dirancang untuk menghasilkan visual yang rapi, estetik, dan siap digunakan untuk kebutuhan promosi digital.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/shaff.wear/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Fashion photography, pemilihan angle, pose, dan lighting.", "Poster & visual design, layout promosi yang konsisten dengan brand.", "Photo editing, color grading, retouching, dan mood adjustment.", "Content-ready output untuk media sosial dan campaign."],
+      tag: "Photographer + Poster Designer + Photo Editor",
       thumb: "assets/fashion-2.jpeg"
     },
     {
       id: "p7", platform: "logo",
       title: "Desain Logo 3D",
-      desc: "Complex → simple.",
+      desc: "Desain logo 3D yang menonjolkan identitas brand secara modern dan profesional. Setiap logo dirancang dengan kedalaman visual, proporsi yang presisi, dan karakter yang kuat agar tampil menonjol di berbagai media.",
       views: "760K", ctr: "3.5%", outcome: "",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["3D logo design, konsep, bentuk, dan visual depth.", "Brand interpretation, menerjemahkan nilai brand ke bentuk visual.", "Lighting & material styling untuk kesan premium", "Final asset preparation untuk kebutuhan digital & promosi"],
+      tag: "3D Logo Designer",
       thumb: "assets/d-logo-1.jpeg"
     },
     {
       id: "p8", platform: "f&b",
-      title: "Desain F&B",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-4.jpeg"
     },
     {
       id: "p9", platform: "f&b",
-      title: "Desain F&B",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-5.jpeg"
     },
     {
       id: "p10", platform: "f&b",
-      title: "Desain F&B",
-      desc: "Complex → simple.",
+      title: "F&B",
+      desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
+      tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-6.jpeg"
     },
     {
       id: "p11", platform: "product",
       title: "Produk",
-      desc: "Complex → simple.",
+      desc: "Produksi konten produk yang dirancang untuk kebutuhan promosi digital dan social media. Menggabungkan visual produk yang kuat, desain poster yang informatif, serta video reels yang dinamis untuk meningkatkan daya tarik dan engagement audiens.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Product photography, detail, tekstur, dan visual produk.", "Social media poster design, layout informatif & eye catching", "Video reels editing, pacing cepat, text sync, dan hook visual.", "Content optimization untuk kebutuhan platform digital"],
+      tag: "Photographer + Social Media Designer + Reels Video Editor",
       thumb: "assets/product-1.jpeg"
     },
     {
       id: "p12", platform: "product",
       title: "Produk",
-      desc: "Complex → simple.",
+      desc: "Produksi konten produk yang dirancang untuk kebutuhan promosi digital dan social media. Menggabungkan visual produk yang kuat, desain poster yang informatif, serta video reels yang dinamis untuk meningkatkan daya tarik dan engagement audiens.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Product photography, detail, tekstur, dan visual produk.", "Social media poster design, layout informatif & eye catching", "Video reels editing, pacing cepat, text sync, dan hook visual.", "Content optimization untuk kebutuhan platform digital"],
+      tag: "Photographer + Social Media Designer + Reels Video Editor",
       thumb: "assets/product-2.jpeg"
     },
     {
       id: "p13", platform: "product",
       title: "Produk",
-      desc: "Complex → simple.",
+      desc: "Produksi konten produk yang dirancang untuk kebutuhan promosi digital dan social media. Menggabungkan visual produk yang kuat, desain poster yang informatif, serta video reels yang dinamis untuk meningkatkan daya tarik dan engagement audiens.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/828souvenirspecialist/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Product photography, detail, tekstur, dan visual produk.", "Social media poster design, layout informatif & eye catching", "Video reels editing, pacing cepat, text sync, dan hook visual.", "Content optimization untuk kebutuhan platform digital"],
+      tag: "Photographer + Social Media Designer + Reels Video Editor",
       thumb: "assets/product-3.jpeg"
     },
     {
       id: "p14", platform: "event",
       title: "Event",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi event yang menangkap momen utama, emosi, dan atmosfer acara secara utuh. Visual dirancang rapi dan fokus agar setiap momen penting tersampaikan jelas dan bernilai untuk kebutuhan publikasi.",
       views: "760K", ctr: "3.5%", outcome: "",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Event photography, menangkap momen, ekspresi, dan suasana acara.", "Visual selection, kurasi foto terbaik sesuai alur event.", "Photo editing, color, lighting, dan mood adjustment.", "Story-driven layout untuk dokumentasi dan promosi"],
+      tag: "Photographer + Editor",
       thumb: "assets/event-1.jpeg"
     },
     {
       id: "p15", platform: "event",
       title: "Event",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi event yang menangkap momen utama, emosi, dan atmosfer acara secara utuh. Visual dirancang rapi dan fokus agar setiap momen penting tersampaikan jelas dan bernilai untuk kebutuhan publikasi.",
       views: "760K", ctr: "3.5%", outcome: "",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Event photography, menangkap momen, ekspresi, dan suasana acara.", "Visual selection, kurasi foto terbaik sesuai alur event.", "Photo editing, color, lighting, dan mood adjustment.", "Story-driven layout untuk dokumentasi dan promosi"],
+      tag: "Photographer + Editor",
       thumb: "assets/event-2.jpeg"
     },
     {
       id: "p16", platform: "event",
       title: "Event",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi dan konsep visual event yang dirancang untuk menangkap momen, emosi, dan tema acara secara menyeluruh. Mulai dari perencanaan konsep hingga hasil visual akhir, setiap detail disusun agar acara terasa berkesan dan mudah dipublikasikan.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Event concept planning, anniversary & birthday party.", "Event photography, momen, ekspresi, dan suasana acara.", "Visual storytelling — menyusun alur dokumentasi event.", "Photo editing, color, lighting, dan mood adjustment.", "Content-ready output untuk kebutuhan publikasi."],
+      tag: "Event Photographer + Editor + Concept Planner",
       thumb: "assets/event-3.jpeg"
     },
     {
       id: "p17", platform: "event",
       title: "Event",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi dan konsep visual event yang dirancang untuk menangkap momen, emosi, dan tema acara secara menyeluruh. Mulai dari perencanaan konsep hingga hasil visual akhir, setiap detail disusun agar acara terasa berkesan dan mudah dipublikasikan.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Event concept planning, anniversary & birthday party.", "Event photography, momen, ekspresi, dan suasana acara.", "Visual storytelling — menyusun alur dokumentasi event.", "Photo editing, color, lighting, dan mood adjustment.", "Content-ready output untuk kebutuhan publikasi."],
+      tag: "Event Photographer + Editor + Concept Planner",
       thumb: "assets/event-4.jpeg"
     },
     {
       id: "p18", platform: "event",
       title: "Event",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi dan konsep visual event yang dirancang untuk menangkap momen, emosi, dan tema acara secara menyeluruh. Mulai dari perencanaan konsep hingga hasil visual akhir, setiap detail disusun agar acara terasa berkesan dan mudah dipublikasikan.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/jackhoward.id/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Event concept planning, anniversary & birthday party.", "Event photography, momen, ekspresi, dan suasana acara.", "Visual storytelling — menyusun alur dokumentasi event.", "Photo editing, color, lighting, dan mood adjustment.", "Content-ready output untuk kebutuhan publikasi."],
+      tag: "Event Photographer + Editor + Concept Planner",
       thumb: "assets/event-5.jpeg"
     },
     {
       id: "p19", platform: "wedding",
       title: "Wedding",
-      desc: "Complex → simple.",
+      desc: "Dokumentasi pernikahan yang menangkap momen sakral, emosi, dan detail penting secara utuh. Setiap visual dirancang untuk bercerita, mulai dari persiapan hingga momen utama dengan hasil yang timeless dan berkesan.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/escepotrait/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Wedding photography, momen, detail, dan ekspresi emosional.", "Wedding videography, cinematic shots & storytelling", "Visual storytelling menyusun alur cerita hari pernikahan.", "Photo & video editing, color, tone, dan mood adjustment."],
+      tag: "Photographer + Videographer + Editor",
       thumb: "assets/wedding-1.jpeg"
     },
     {
       id: "p20", platform: "property",
-      title: "Property",
-      desc: "Complex → simple.",
+      title: "Property Visual Documentation",
+      desc: "Menggabungkan fotografi arsitektur dan editing presisi untuk menyampaikan nilai ruang, skala, dan atmosfer secara jelas dan menarik bagi calon klien.",
       views: "760K", ctr: "3.5%", outcome: "",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Property photography & visual detail.", "Photo & editing (clean, cinematic)."],
+      tag: "Photographer + Editor",
       thumb: "assets/property-1.jpeg"
     },
 
     {
       id: "p21", platform: "poster",
-      title: "Poster",
-      desc: "Complex → simple.",
+      title: "Poster Travel Umroh",
+      desc: "Produksi konten promosi travel umroh yang informatif dan mudah dipahami. Setiap materi dirancang untuk menyampaikan informasi paket secara jelas, menarik, dan relevan bagi audiens digital.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Poster design, layout informatif & visual yang rapi.", "Scriptwriting — menyusun narasi promosi yang singkat dan persuasif.", "Video reels editing, visual dinamis, text sync, dan hook awal", "Content optimization untuk media sosial."],
+      tag: "Poster Designer + Scriptwriter + Reels Video Editor",
       thumb: "assets/poster-2.jpeg"
     },
     {
       id: "p22", platform: "poster",
-      title: "Poster",
-      desc: "Complex → simple.",
+      title: "Poster Travel Umroh",
+      desc: "Produksi konten promosi travel umroh yang informatif dan mudah dipahami. Setiap materi dirancang untuk menyampaikan informasi paket secara jelas, menarik, dan relevan bagi audiens digital.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Poster design, layout informatif & visual yang rapi.", "Scriptwriting — menyusun narasi promosi yang singkat dan persuasif.", "Video reels editing, visual dinamis, text sync, dan hook awal", "Content optimization untuk media sosial."],
+      tag: "Poster Designer + Scriptwriter + Reels Video Editor",
       thumb: "assets/poster-1.jpeg"
     },
     {
       id: "p23", platform: "poster",
-      title: "Poster",
-      desc: "Complex → simple.",
+      title: "Poster Travel Umroh",
+      desc: "Produksi konten promosi travel umroh yang informatif dan mudah dipahami. Setiap materi dirancang untuk menyampaikan informasi paket secara jelas, menarik, dan relevan bagi audiens digital.",
       views: "760K", ctr: "3.5%", outcome: "https://www.instagram.com/alfatih.umroh/",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Poster design, layout informatif & visual yang rapi.", "Scriptwriting — menyusun narasi promosi yang singkat dan persuasif.", "Video reels editing, visual dinamis, text sync, dan hook awal", "Content optimization untuk media sosial."],
+      tag: "Poster Designer + Scriptwriter + Reels Video Editor",
       thumb: "assets/poster-3.jpeg"
     },
     {
       id: "p24", platform: "motion",
-      title: "Motion",
-      desc: "Complex → simple.",
+      title: "Motion Logo Brand",
+      desc: "Motion logo yang dirancang untuk memperkuat identitas brand secara visual. Setiap animasi dibuat dengan pendekatan clean dan modern agar logo terasa hidup, profesional, dan mudah dikenali di berbagai media digital.",
       views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/1h3MG12XOVOeHS5jdztPg-1wuScLtb4HA/view?usp=drive_link",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Logo design, konsep visual & identitas brand", "Motion design, animasi logo yang dinamis dan berkarakter", "Visual timing & easing untuk kesan profesional", "Final motion output untuk kebutuhan digital branding"],
+      tag: "Logo Designer + Motion Designer",
       thumb: "assets/motion-1.jpeg"
     },
     {
       id: "p25", platform: "motion",
-      title: "Motion",
-      desc: "Complex → simple.",
+      title: "Motion Logo Brand",
+      desc: "Motion logo yang dirancang untuk memperkuat identitas brand secara visual. Setiap animasi dibuat dengan pendekatan clean dan modern agar logo terasa hidup, profesional, dan mudah dikenali di berbagai media digital.",
       views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/18W1EWrClbwXMdVeTPbBkZFLlX4oH7FgE/view?usp=drive_link",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Logo design, konsep visual & identitas brand", "Motion design, animasi logo yang dinamis dan berkarakter", "Visual timing & easing untuk kesan profesional", "Final motion output untuk kebutuhan digital branding"],
+      tag: "Logo Designer + Motion Designer",
       thumb: "assets/motion-2.jpeg"
     },
     {
       id: "p26", platform: "motion",
-      title: "Motion",
-      desc: "Complex → simple.",
+      title: "Motion Logo Brand",
+      desc: "Motion logo yang dirancang untuk memperkuat identitas brand secara visual. Setiap animasi dibuat dengan pendekatan clean dan modern agar logo terasa hidup, profesional, dan mudah dikenali di berbagai media digital.",
       views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/1cRI1AhToe7sm47wcNkFy9U_xry7jaPpv/view?usp=drive_link",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Logo design, konsep visual & identitas brand", "Motion design, animasi logo yang dinamis dan berkarakter", "Visual timing & easing untuk kesan profesional", "Final motion output untuk kebutuhan digital branding"],
+      tag: "Logo Designer + Motion Designer",
       thumb: "assets/motion-3.jpeg"
     },
     {
       id: "p27", platform: "motion",
-      title: "Motion",
-      desc: "Complex → simple.",
+      title: "Motion Logo Brand",
+      desc: "Motion logo yang dirancang untuk memperkuat identitas brand secara visual. Setiap animasi dibuat dengan pendekatan clean dan modern agar logo terasa hidup, profesional, dan mudah dikenali di berbagai media digital.",
       views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
-      bullets: ["Analogy cepat.", "Text sync.", "Teaser end."],
+      bullets: ["Logo design, konsep visual & identitas brand", "Motion design, animasi logo yang dinamis dan berkarakter", "Visual timing & easing untuk kesan profesional", "Final motion output untuk kebutuhan digital branding"],
+      tag: "Logo Designer + Motion Designer",
       thumb: "assets/motion-4.jpeg"
+    },
+    {
+      id: "p28", platform: "property",
+      title: "Property Video Editing",
+      desc: "Editing video properti yang menampilkan ruang, alur, dan nilai jual secara jelas dan profesional. Setiap video dirancang untuk membantu audiens memahami properti dengan cepat dan menarik.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      bullets: ["Property video editing, alur ruang & visual clarity", "Footage selection, menonjolkan keunggulan properti", "Text & information overlay, informatif dan rapi", "Color & mood adjustment, konsisten dan profesional"],
+      tag: "Video Editor (Property)",
+      thumb: "assets/property-2.jpeg"
+    },
+    {
+      id: "p29", platform: "property",
+      title: "Property Video Editing",
+      desc: "Editing video properti yang menampilkan ruang, alur, dan nilai jual secara jelas dan profesional. Setiap video dirancang untuk membantu audiens memahami properti dengan cepat dan menarik.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      bullets: ["Property video editing, alur ruang & visual clarity", "Footage selection, menonjolkan keunggulan properti", "Text & information overlay, informatif dan rapi", "Color & mood adjustment, konsisten dan profesional"],
+      tag: "Video Editor (Property)",
+      thumb: "assets/property-3.jpeg"
+    },
+    {
+      id: "p30", platform: "vlog",
+      title: "Travel Vlog Editing",
+      desc: "Editing vlog perjalanan yang merangkum pengalaman, momen, dan suasana lokasi secara runtut dan engaging. Setiap video disusun dengan pacing yang tepat agar cerita perjalanan terasa hidup dan mudah dinikmati.",
+      views: "760K", ctr: "3.5%", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      bullets: ["Vlog editing, penyusunan alur cerita perjalanan", "Footage selection, memilih momen terbaik dari perjalanan", "Color & mood adjustment, menyamakan tone visual", "Text & music sync, memperkuat storytelling visual"],
+      tag: "Video Editor",
+      thumb: "assets/vlog-1.jpeg"
     },
   ].map(p => ({
     ...p,
@@ -462,7 +516,7 @@
 
         <div class="project__top">
           <div class="tag ${p.platform}">${platformLabel(p.platform)}</div>
-          <div class="tag">Script + Edit</div>
+          <div class="tag">${escapeHtml(p.tag || "Script + Edit")}</div>
         </div>
 
         <h3 class="project__title">${escapeHtml(p.title)}</h3>
