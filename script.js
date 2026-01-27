@@ -271,7 +271,7 @@
       id: "p8", platform: "f&b",
       title: "F&B",
       desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
-      views: "±105.827", ctr: "", outcome: "https://www.instagram.com/jackhoward.id/",
+      views: "", ctr: "", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
       tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-4.jpeg"
@@ -280,7 +280,7 @@
       id: "p9", platform: "f&b",
       title: "F&B",
       desc: "Konten visual F&B yang dirancang untuk meningkatkan daya tarik brand dan engagement audiens. Menggabungkan visual yang appetizing, desain yang kuat, dan storytelling singkat agar pesan brand tersampaikan cepat dan efektif.",
-      views: "±105.827", ctr: "", outcome: "https://www.instagram.com/jackhoward.id/",
+      views: "", ctr: "", outcome: "https://www.instagram.com/jackhoward.id/",
       bullets: ["Food & brand photography", "Poster & visual design untuk kebutuhan promosi", "Video shooting (produk, ambience, activity)", "Video editing (pacing cepat, text sync, clean look)", "Social media management, perencanaan konten & visual feed"],
       tag: "Photographer + Designer + Cameraman + Video Editor + Social Media Handler",
       thumb: "assets/f&b-5.jpeg"

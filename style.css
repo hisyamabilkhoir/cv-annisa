@@ -750,7 +750,8 @@ html[data-theme="light"]
 .about2__text {
   margin: 0 0 16px;
   color: var(--muted);
-  max-width: 58ch;
+  /* max-width: 58ch; */
+  max-width: 70ch;
 }
 
 .about2__mini {
