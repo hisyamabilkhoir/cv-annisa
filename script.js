@@ -452,7 +452,7 @@
       id: "p28", platform: "property",
       title: "Property Video Editing",
       desc: "Editing video properti yang menampilkan ruang, alur, dan nilai jual secara jelas dan profesional. Setiap video dirancang untuk membantu audiens memahami properti dengan cepat dan menarik.",
-      views: "", ctr: "", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      views: "", ctr: "", outcome: "https://drive.google.com/drive/folders/1kkMeiGAAmBj61-kowsHRhckeIqwl_CI1",
       bullets: ["Property video editing, alur ruang & visual clarity", "Footage selection, menonjolkan keunggulan properti", "Text & information overlay, informatif dan rapi", "Color & mood adjustment, konsisten dan profesional"],
       tag: "Video Editor (Property)",
       thumb: "assets/property-2.jpeg"
@@ -461,7 +461,7 @@
       id: "p29", platform: "property",
       title: "Property Video Editing",
       desc: "Editing video properti yang menampilkan ruang, alur, dan nilai jual secara jelas dan profesional. Setiap video dirancang untuk membantu audiens memahami properti dengan cepat dan menarik.",
-      views: "", ctr: "", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      views: "", ctr: "", outcome: "https://drive.google.com/drive/folders/1kkMeiGAAmBj61-kowsHRhckeIqwl_CI1",
       bullets: ["Property video editing, alur ruang & visual clarity", "Footage selection, menonjolkan keunggulan properti", "Text & information overlay, informatif dan rapi", "Color & mood adjustment, konsisten dan profesional"],
       tag: "Video Editor (Property)",
       thumb: "assets/property-3.jpeg"
@@ -470,7 +470,7 @@
       id: "p30", platform: "vlog",
       title: "Travel Vlog Editing",
       desc: "Editing vlog perjalanan yang merangkum pengalaman, momen, dan suasana lokasi secara runtut dan engaging. Setiap video disusun dengan pacing yang tepat agar cerita perjalanan terasa hidup dan mudah dinikmati.",
-      views: "", ctr: "", outcome: "https://drive.google.com/file/d/10mpA32zNgnma5K4aSVpw8Ny9bx5M6AMG/view?usp=drive_link",
+      views: "", ctr: "", outcome: "https://drive.google.com/drive/folders/1kkMeiGAAmBj61-kowsHRhckeIqwl_CI1",
       bullets: ["Vlog editing, penyusunan alur cerita perjalanan", "Footage selection, memilih momen terbaik dari perjalanan", "Color & mood adjustment, menyamakan tone visual", "Text & music sync, memperkuat storytelling visual"],
       tag: "Video Editor",
       thumb: "assets/vlog-1.jpeg"
